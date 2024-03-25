@@ -3,7 +3,7 @@ import math
 
 def generate_watch_dial():
     # Create SVG Drawing
-    drawing = svgwrite.Drawing('watch_dial.svg', size=(30, 30), profile='full')
+    drawing = svgwrite.Drawing('numeric_dial.svg', size=(30, 30), profile='full')
 
     # Define styles
     dial_style = "stroke:#192A56;stroke-width:0.1mm;fill:none;"
